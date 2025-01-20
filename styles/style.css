@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* shared styles */
+  .orange {
+    color: rgb(254, 163, 1);
+  }
+  .white {
+    color: rgb(255, 255, 255);
+  }
+
+
+  /* Nav section */
+  body {
+    max-width: 1140px;
+    margin: 0 auto ;
+   
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 1140px;
+    margin: 0 auto; */
+    align-items: center;
+    margin-bottom: 120px;
+  }
+
+  .logo {
+    display: flex;
+  }
+  .logo-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color:rgb(17, 17, 17) ;
+  }
+  /* .logo img {
+    height:100%;
+    width: 70%
+
+    
+  } */
+
+  .nav-items {
+    display: flex;
+    gap: 20px;
+  }
+  .contact {
+    background-color:rgb(254, 163, 1) ;  
+    color: rgb(255, 255, 255) ;
+    padding:5px 15px;
+    font-weight: 600;
+    font-size: 1.25rem; 
+    border-radius: 8px;
+    border: none;
+  }
+  .home {
+    font-size: 1.25rem;
+    font-weight: 700;  
+  }
+  .about {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgb(1, 172, 253);
+  }
+  .facilities {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgb(5, 212, 223);
+  }
+  .admission {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: rgb(93, 88, 239);
+  }
+
+  /* vision styles */ 
+  .vision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .vision-title {
+    font-weight: 700;
+    font-size: 3.5rem;
+  }
+  .vision-span-1 {
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: rgb(254, 163, 1);
+  }
+  .vision-span-2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+  }
+    .vision-span-3 {
+        color: rgb(1, 172, 253);
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+
+    .vision-description {
+        font-weight: 400;
+        font-size: 1.25rem;
+        color: rgb(17, 17, 17);
+    }
+    .vision-btn {
+        background-color:rgb(17, 17, 17);
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+        font-weight: 700;
+        border: none;
+        border-radius: 12px;
+        padding: 5px 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width:576px){
+        .vision {
+            flex-direction: column-reverse;
+            width: 100%;
+            font-size: 1rem;
+            gap: 0px;
+            
+        }
+        
+    }
+
+  
+     
+  
+
+  
